@@ -46,7 +46,7 @@ def mostrar_na_tela(lista_registro_diferentes, lista_registro_iguais):
 
 # função para capitar todas as informação do arquivo e arquivar em outro arquivo 
 def arquivar_em_txt( lista_registro_diferentes, lista_registro_iguais):
-    relatorio = open('relatorio', 'w')
+    relatorio = open('relatorio.txt', 'w')
 
     relatorio.write("___________________________________________________________________________________________________________________________________________________________________________________________\n")
     relatorio.write("|Nome da Empresa               |Numero de Inscricao da Empresa|Nome do Banco                 |Nome da Rua                   |Numero do Local|Nome da Cidade      |CEP      |Sigla do Estado|\n")
